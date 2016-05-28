@@ -1,6 +1,6 @@
 {
   "name": "portal-im-admin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An admin app for portal-im",
   "main": "admin.js",
   "scripts": {
@@ -24,5 +24,10 @@
   },
   "homepage": "https://github.com/facekapow/portal-im-admin#readme",
   "bin": "admin.js",
-  "preferGlobal": true
+  "preferGlobal": true,
+  "dependencies": {
+    "colors": "^1.1.2",
+    "minimist": "^1.2.0",
+    "socket.io-client": "^1.4.6"
+  }
 }
