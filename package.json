@@ -1,6 +1,6 @@
 {
   "name": "portal-im-admin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An admin app for portal-im",
   "main": "admin.js",
   "scripts": {
