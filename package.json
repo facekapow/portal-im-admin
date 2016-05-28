@@ -1,0 +1,28 @@
+{
+  "name": "portal-im-admin",
+  "version": "1.0.0",
+  "description": "An admin app for portal-im",
+  "main": "admin.js",
+  "scripts": {
+    "test": "echo \"No test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facekapow/portal-im-admin.git"
+  },
+  "keywords": [
+    "portal",
+    "im",
+    "portal-im",
+    "admin",
+    "administrator"
+  ],
+  "author": "facekapow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/facekapow/portal-im-admin/issues"
+  },
+  "homepage": "https://github.com/facekapow/portal-im-admin#readme",
+  "bin": "admin.js",
+  "preferGlobal": true
+}
