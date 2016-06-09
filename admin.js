@@ -24,12 +24,13 @@ let args = argv._.slice(1);
 let v = argv.v;
 let serverURL = argv.u || argv.url || cfg.serverURL;
 
-if (!token || !serverURL) return console.log('Nope.');
+if (!serverURL) return console.log('Nope.');
 if (command === 'config') {
   cfg.serverURL = serverURL;
   fs.writeFileSync(`${home}/.portalrc`, JSON.stringify(cfg));
   process.exit(0);
 }
+if (!token) return console.log('Nope.');
 
 const portal = socketIo(serverURL);
 if (v) console.log('info: '.green + `connecting to ${serverURL}...`);
